@@ -27,6 +27,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.tudelft.localization.MainActivity" />
         </activity>
+        <activity
+            android:name=".particlefilter.ParticleFilterActivity"
+            android:label="@string/title_activity_particle_filter"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tudelft.localization.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
